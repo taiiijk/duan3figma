@@ -8,3 +8,139 @@ body {
   font-family: "Sora", sans-serif;
   font-size: 1.6rem;
 }
+/* common ///////////////////////////////////////////////////// */
+.main-content {
+  max-width: calc(100%-24px);
+  margin: 0 auto;
+  width: 1170px;
+}
+/* header////////////////////////////////////////////////////// */
+header {
+  padding-top: 50px;
+  background: #10375c;
+  min-height: 100vh;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_list ul {
+  gap: 42px;
+  display: flex;
+}
+.nav_list a {
+  text-decoration: none;
+  color: #c9d2da;
+  text-align: center;
+  font-family: Sora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 175% */
+}
+.nav_button button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.nav_button .login {
+  color: #c9d2da;
+  text-align: right;
+  font-family: Sora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 175% */
+}
+.nav_button .signup {
+  margin-left: 48px;
+  color: #fff;
+  text-align: center;
+  font-family: Sora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  width: 104px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 22px;
+  background: #2e80ce;
+}
+.active,
+.nav_list a:hover {
+  position: relative;
+  color: #fff;
+
+  text-shadow: 1px 0 0 #fff;
+}
+.active::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #fff;
+  left: -10px;
+  bottom: 11px;
+}
+.header_bottom {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_bottom__left h1 {
+  padding-top: 60px;
+  width: 517px;
+  color: #fff;
+  font-family: Sora;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px; /* 114.286% */
+  letter-spacing: -1.4px;
+}
+.header_bottom__left p {
+  padding-top: 22px;
+  color: #c9d2da;
+  font-family: Sora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 166.667% */
+  width: 468px;
+  padding-bottom: 38px;
+}
+
+.header_bottom__left__button button {
+  border: none;
+  background: transparent;
+  color: #fff;
+  text-align: center;
+  font-family: Sora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  cursor: pointer;
+}
+
+.header_bottom__left__button .book {
+  margin-right: 38px;
+  width: 205px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #2e80ce;
+}
+
+.header_bottom__right .im2 {
+  margin-bottom: 65px;
+  width: 210px;
+  height: 410px;
+}
+.header_bottom__right .im1 {
+  margin-right: -6px;
+}
