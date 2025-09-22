@@ -144,3 +144,107 @@ nav {
 .header_bottom__right .im1 {
   margin-right: -6px;
 }
+/* service///////////////////////////////////////// */
+.service {
+  background: #fff;
+  margin-top: 170px;
+}
+.service_tirtle h1 {
+  color: #10375c;
+  text-align: center;
+  font-family: Sora;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px; /* 120% */
+  letter-spacing: -1px;
+}
+.service_tirtle p {
+  width: 468px;
+  color: #575f66;
+  text-align: center;
+  font-family: Sora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 166.667% */
+  margin: 16px auto 70px;
+}
+.service_content {
+  display: flex;
+  justify-content: space-between;
+}
+.service_content .mainim {
+  width: 570px;
+  height: 570px;
+  flex-shrink: 0;
+  border-radius: 12px;
+}
+.list_service {
+  margin-top: 56px;
+}
+.list_service .icon {
+  margin-right: 18px;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.list_service h1 {
+  color: #10375c;
+  font-family: Sora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.list_service p {
+  color: #575f66;
+  font-family: Sora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 175% */
+  width: 351px;
+}
+.service1 {
+  width: 470px;
+  padding: 21px;
+  flex-shrink: 0;
+  display: flex;
+}
+.service1:hover {
+  box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.05);
+}
+.list_service button {
+  border: none;
+  background: transparent;
+  margin-top: 50px;
+  color: #fff;
+  text-align: center;
+  font-family: Sora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  width: 205px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #2e80ce;
+}
+.service1_icon {
+  margin-right: 19px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #eff6fd;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.05);
+}
+.service1:hover .service1_icon {
+  color: #fff;
+  background: blue;
+}
